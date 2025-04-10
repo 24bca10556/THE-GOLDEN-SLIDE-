@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buffet Menu</title>
+    <style>
+        body {
+            background-image: url('./buffet.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: antiquewhite;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .container {
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 900px;
+            width: 90%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            margin: 20px auto;
+        }
+
+        h1, h2, h4 {
+            color: gold;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .dish {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+        }
+
+        img, video {
+            border-radius: 10px;
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+
+        .links {
+            margin-top: 20px;
+        }
+
+        .links a {
+            text-decoration: none;
+            background: gold;
+            color: black;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            transition: 0.3s;
+        }
+
+        .links a:hover {
+            background: orange;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Buffet Menu</h1>
+        <p>Explore our delicious selection of non-vegetarian dishes, carefully prepared to satisfy every taste.</p>
+    </div>
+
+    <div class="grid">
+        <div class="dish">
+            <h4>Pepperoni Pizza</h4>
+            <img src="./tcha.jpeg" alt="Pepperoni Pizza">
+            <p>A timeless favorite featuring a thin crust, tangy tomato sauce, melted mozzarella, and generously layered spicy pepperoni slices.</p>
+        </div>
+        <div class="dish">
+            <h4>BBQ Chicken Pizza</h4>
+            <img src="./BBQ Chicken Pizza.jpeg" alt="BBQ Chicken Pizza">
+            <p>A bold pizza topped with smoky BBQ sauce, tender grilled chicken pieces, red onions, and a sprinkle of cilantro for a fresh kick.</p>
+        </div>
+        <div class="dish">
+            <h4>Shrimp Alfredo Pasta</h4>
+            <img src="./Shrimp Alfredo Pasta.jpeg" alt="Shrimp Alfredo Pasta">
+            <p>Succulent shrimp tossed in a creamy Alfredo sauce made with garlic, butter, and parmesan, served over fettuccine pasta.</p>
+        </div>
+        <div class="dish">
+            <h4>Grilled Salmon with Lemon Butter</h4>
+            <img src="./Grilled Salmon with Lemon Butter.jpg" alt="Grilled Salmon">
+            <p>Perfectly grilled salmon fillet, seasoned with herbs and served with a zesty lemon butter sauce for a light and refreshing taste.</p>
+        </div>
+        <div class="dish">
+            <h4>Beef Lasagna</h4>
+            <video src="./las deo.mp4" autoplay controls></video>
+            <p>Layers of tender beef ragu, creamy béchamel, and pasta sheets, baked with bubbling mozzarella and parmesan on top.</p>
+        </div>
+    </div>
+
+    <div class="container links">
+        <p><a href="./andy.html">Go to page number 3</a></p>
+    </div>
+
+</body>
+</html>
